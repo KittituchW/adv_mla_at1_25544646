@@ -1,0 +1,23 @@
+[project]
+name = "my-krml-25544646"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "kittituch wongwatcharapaiboon"}
+]
+readme = "README.md"
+requires-python = "3.11.4"
+dependencies = [
+    "pandas (==2.2.2)",
+    "scikit-learn (==1.5.1)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "8.2.2"
+jupyterlab = "4.2.3"
+
