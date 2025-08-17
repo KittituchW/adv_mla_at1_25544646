@@ -1,13 +1,13 @@
 [project]
-name = "my-krml-25544646"
-version = "0.1.0"
+name = "adv-mla-at1-25544646"
+version = "2025.0.1.1"
 description = ""
 packages = [{ include = "my_krml_25544646", from = "src" }]
 authors = [
     {name = "kittituch wongwatcharapaiboon"}
 ]
 readme = "README.md"
-requires-python = "3.11.4"
+requires-python = ">=3.11"
 dependencies = [
     "pandas (==2.2.2)",
     "scikit-learn (==1.5.1)",
