@@ -1,8 +1,8 @@
 [project]
 name = "adv-mla-at1-25544646"
-version = "2025.0.1.1"
+version = "2025.0.1.2"
 description = ""
-packages = [{ include = "my_krml_25544646", from = "src" }]
+packages = [{ include = "adv_mla_at1_25544646", from = "src" }]
 authors = [
     {name = "kittituch wongwatcharapaiboon"}
 ]
